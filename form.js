@@ -1,3 +1,4 @@
+import $ from "jquery";
 $(document).ready(function () {
   function updateNumberOfNights() {
     checkInDate = $("#checkin-input").val();
